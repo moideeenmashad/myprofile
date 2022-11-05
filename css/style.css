@@ -1,0 +1,244 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+   
+   }  */
+
+
+body{
+    background-color: rgb(199, 185, 185);
+    background-repeat: no-repeat;
+}
+ /* header part */
+header{
+    background-color: black;
+    padding: 1%;
+    margin: 0%;
+}
+
+#dp{
+    border: 1px solid white;
+    margin-left: -5px;
+    margin-top: -px;
+    margin-bottom: -40px;
+    
+}
+h3{
+    color: white;
+    margin-right: 75%;  
+    margin-left: 70px;
+    margin-top: -50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+/* Navigation bar */
+
+nav{
+    float: right;
+
+    margin-top: -42px;
+    padding: 5px;
+    
+}
+nav a{
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+
+nav a:hover{
+     
+     color: white;
+     font-style: bold;
+     box-shadow: white;
+     opacity: 50%;
+     
+}
+
+/* Aside part */
+
+
+.cbox {
+    border: 1px solid whitesmoke;
+    float: left;
+    width: 13.5%;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: white;
+    height: 15em;
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    border-width: -10%;
+    text-align: center;
+    
+    
+
+}
+.cbox dt{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+aside dd{
+    color: mediumseagreen;
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+
+}
+/* Content box */
+
+.contentbox{
+    
+    border: 1px solid whitesmoke;
+    float: left;
+    width: 50.5%;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: white;
+    height: 94em;
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    border-width: -10%;
+    text-align: center;
+
+}
+.contentbox dd{
+    text-align: left;
+    font-size: smaller;
+}
+
+.contentbox dt{
+    padding-top: 18px;
+}
+
+#led{
+    list-style-type: circle;
+    padding-left: 5%;
+    padding-bottom: 10px;
+}
+.head{
+    padding: 30px;
+}
+/* CONTACT */
+#contact-form {
+    max-width: 1208px;
+    max-width: 75.5rem;
+    margin: 0 auto;
+  }
+  #contact, label, input[name="submit"] {
+    position: relative;
+  }
+  label > span, input, textarea, button {
+    box-sizing: border-box;
+  }
+  label {
+    display: block;
+  }
+  label > span {
+    display: none;
+  }
+  input, textarea, button {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    font: 300 100%/1.2 Ubuntu, sans-serif;
+  }
+  input[type="text"], input[type="email"], textarea {
+    margin: 0 0 1em;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  input.invalid, textarea.invalid {
+    border-color: #d5144d;
+  }
+  textarea {
+    height: 6em;
+  }
+  input[type="submit"], button {
+    background: #a7cd80;
+    color: #333;
+  }
+  input[type="submit"]:hover, button:hover {
+    background: #91b36f;
+  }
+  @media screen and (min-width: 30em) {
+    #contact-form h2 {
+      margin-left: 26.3736%;
+      font-size: 2em;
+      line-height: 1.5;
+    }
+    label > span {
+      vertical-align: top;
+      display: inline-block;
+      width: 26.3736%;
+      padding: 0.5em;
+      border: 1px solid transparent;
+      text-align: right;
+    }
+    input, textarea, button {
+      width: 73.6263%;
+      line-height: 1.5;
+    }
+    textarea {
+      height: 10em;
+    }
+    input[type="submit"], button {
+      margin-left: 26.3736%;
+      align-items: center;
+    }
+  }
+  @media screen and (min-width: 48em) {
+    #contact-form {
+      text-align: justify;
+      line-height: 0;
+    }
+    #contact-form:after {
+      content: '';
+      display: inline-block;
+      width: 100%;
+    }
+    #contact-form h2 {
+      margin-left: 17.2661%;
+    }
+    #contact-form form, #contact-form aside {
+      vertical-align: top;
+      display: inline-block;
+      width: 65.4676%;
+      text-align: left;
+      line-height: 1.5;
+    }
+    #contact-form aside {
+      width: 30.9353%;
+    }
+  }
+
+
+  /* Footer */
+
+  /* footer{
+    border-bottom: 100%;
+  }
+
+
+  */
+
+  .justify-content-center {
+        background-color: black;
+        position: relative;
+        height: 100px;
+        margin-top: -100px;
+        clear: both;
+        color: white;
+        
+  }
+  .justify-content-center a:hover{
+    color: white;
+    opacity: 60%;
+  }
+
+  
+  
